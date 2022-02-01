@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'ORBE.AI'
+copyright = '2021, Orbe.AI'
+author = 'Orbe.AI'
 
 release = '0.1'
 version = '0.1.0'
@@ -16,7 +16,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    'sphinx.ext.intersphinx'
 ]
 
 intersphinx_mapping = {
@@ -30,6 +30,13 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+
+html_logo = 'logo_orbe.png'
+
+html_theme_options = {
+    'logo_only': True,
+    'display_version': False
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
